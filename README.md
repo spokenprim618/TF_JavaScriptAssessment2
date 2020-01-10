@@ -1,5 +1,9 @@
 # JavaScript Assessment - Teaching Fellow 
 
+:::warning
+Link to [GitHub Repository](https://github.com/AllStarCodeOrg/TF_JavaScriptAssessment) to download source code and test files
+:::
+
 The All Star Code Teaching Fellow JavaScript Assessment consists of 3 tasks, to be completed and turned in to dante@allstarcode.org as a GitHub gist.
 
 ### **IT IS NOT NECESSARY PASS ALL TEST SPECS TO GET HIRED. JUST DO YOUR BEST! :smile:**
@@ -17,7 +21,7 @@ The All Star Code Teaching Fellow JavaScript Assessment consists of 3 tasks, to 
 ### Notes
 - The tasks are designed to get progressively harder and you are advised to attempt the tasks in the given order.
 - The tests folder contains test files in which your functions will be tested with. Feel free to look at the tests, but **DO NOT** edit them. These exact tests will be used to test your answers when you submit your work.
-- **Info on testing your work with the provided test specs is included at the end of the document.**  
+- **Info on testing your work with the provided test specs is included at the <a href="#tests">end of the document</a>**.  
 <br>
 
 ---
@@ -102,7 +106,7 @@ Please note that test cases for the extra credit challenge are not included in t
 
 ---
 
-## TESTING YOUR FUNCTIONS
+<h2 id="tests"> TESTING YOUR FUNCTIONS</h2>
 - The tests are setup with commands to test your answers for each individual task. This will only work properly if there are:
     - No errors for `npm install` command
     - No modifications to any files in the `tests` folder
