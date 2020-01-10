@@ -1,4 +1,4 @@
-# JavaScript Assessment - Teaching Fellow
+# JavaScript Assessment - Teaching Fellow 
 
 The All Star Code Teaching Fellow JavaScript Assessment consists of 3 tasks, to be completed and turned in to dante@allstarcode.org as a GitHub gist.
 
@@ -82,8 +82,8 @@ The All Star Code Teaching Fellow JavaScript Assessment consists of 3 tasks, to 
 
 ---
 
-### EXTRA CREDIT CHALLENGES
-*The extra credit challenges are optional. Only attempt this if you've passed all the tests for Task #1 - #3. 
+## EXTRA CREDIT CHALLENGES
+*The extra credit challenges are optional, but highly recommended. Only attempt this if you've passed all the tests for Task #1 - #3.
     <br>
 Please note that test cases for the extra credit challenge are not included in this repo.*
 - The function strClean should instead **return an array of subarrays** with each subarray containing the unclean original string, followed by the clean string.
@@ -102,7 +102,7 @@ Please note that test cases for the extra credit challenge are not included in t
 
 ---
 
-### TESTING YOUR FUNCTIONS
+## TESTING YOUR FUNCTIONS
 - The tests are setup with commands to test your answers for each individual task. This will only work properly if there are:
     - No errors for `npm install` command
     - No modifications to any files in the `tests` folder
