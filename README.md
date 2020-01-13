@@ -1,9 +1,5 @@
 # JavaScript Assessment - Teaching Fellow 
 
-:::warning
-Link to [GitHub Repository](https://github.com/AllStarCodeOrg/TF_JavaScriptAssessment) to download source code and test files
-:::
-
 The All Star Code Teaching Fellow JavaScript Assessment consists of 3 tasks, to be completed and turned in to dante@allstarcode.org as a GitHub gist.
 
 ### **IT IS NOT NECESSARY PASS ALL TEST SPECS TO GET HIRED. JUST DO YOUR BEST! :smile:**
@@ -80,27 +76,6 @@ The All Star Code Teaching Fellow JavaScript Assessment consists of 3 tasks, to 
     - **EXPECTED OUTPUT:**
         - `strClean(['  Blah!  ','10023','100']) → ['Blah!', 'onezerozero', 'onezerozero']`
         - `strClean(['I am   spaced']) → ['I_am___spaced']`
-
-
-    <br>
-
----
-
-## EXTRA CREDIT CHALLENGES
-*The extra credit challenges are optional, but highly recommended. Only attempt this if you've passed all the tests for Task #1 - #3.
-    <br>
-Please note that test cases for the extra credit challenge are not included in this repo.*
-- The function strClean should instead **return an array of subarrays** with each subarray containing the unclean original string, followed by the clean string.
-    <br>
-    - **EXPECTED OUTPUT:**
-        - `strClean(['10023']) → [['10023', 'onezerozero']]`
-        - `strClean(['1', ' Much wow ']) → [['1', 'one'], [' Much wow ', 'Much_wow']]`
-        <br>
-- Additionally, if the string **DOES NOT** need to be cleaned, strClean should should return a subarray containing the original string, followed by the string `'ALREADYCLEAN'`
-    <br>
-    - **EXPECTED OUTPUT:**
-        - `strClean(['Yes']) → [['Yes', 'ALREADYCLEAN']]`
-        - `strClean([' Hi!       ', 'Clean']) → [[' Hi!       ', 'Hi!'],['Clean', 'ALREADYCLEAN']]`
 
 <br>
 
