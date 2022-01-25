@@ -1,6 +1,6 @@
 # JavaScript Assessment - Teaching Fellow 
 
-The All Star Code Teaching Fellow JavaScript Assessment consists of 3 tasks, to be completed and turned in to dante@allstarcode.org as a GitHub gist.
+The All Star Code Teaching Fellow JavaScript Assessment consists of 3 tasks, to be completed and turned in to lincoln@allstarcode.org as a GitHub gist.
 
 ### **IT IS NOT NECESSARY PASS ALL TEST SPECS TO GET HIRED. JUST DO YOUR BEST! :smile:**
 
