@@ -1,23 +1,28 @@
 function strClean(arrOfStrs){
-    //now string
-  let part1= arrOfStrs.toString();
-  arrOfStrs=[];
-  console.log(part1[0])
-    for(i=0;i<=part1.length;i++){
-        if(part1[i]=="1"){
-            let one= part1[i].replace("1","one")
-            let zero= part1[i].replace("","zero")
 
-            arrOfStrs.push(one)
-            arrOfStrs.push(zero)
-            arrOfStrs.push(space)
+   
+    for(let i=0;i<=arrOfStrs.length;i++){
+    let chars = {'1':'one','0':'zero','':'_'};
 
-            return arrOfStrs
-        }
-       
+    s = arrOfStrs[i].replace(/[0-1]/g ,m =>chars[m]);
+    s = s.replace(/[^zero one]/g ,'');
+    s = s.replace(/[\s]$/g ,'');
+    s = s.replace(/^[\s]/g ,'');
+
+    s = s.replace(/[\s]/g ,'_');
+
+
+    
+
+
+
+
+
+
+return s
     }
 }
-console.log(strClean(["1 0  1 23 "]))
+console.log(strClean([" 1 0  1 23 ","00 0"]))
 
 
 // DO NOT EDIT THE LINE BELOW THIS
